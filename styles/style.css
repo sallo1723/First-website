@@ -1,0 +1,55 @@
+html {
+    font-size: 10px; 
+    font-weight: 900;
+    font-family: 'Comic Neue', cursive;
+    background-color:rgba(171, 252, 149, 0.5);
+}
+
+body {
+    width: 800px;
+    margin: 1.5% auto;
+    background-color: rgba(0, 113, 165, 0.5);
+    padding: 0 30px 30px 30px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    margin: 1.5% auto;
+    width: 800px;
+    border: 3px solid black;
+}
+
+p, li {
+    font-size: 13px;    
+    line-height: 1;
+    letter-spacing: 1px;
+  }
+
+.different_class {
+    color: blue;
+}
+
+#first-paragraph {
+    color: rgb(103, 0, 63);
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;  
+    font-size: 32px;
+    text-align: center;
+    color: rgb(0, 118, 122);
+    text-shadow: 1.5px 1.5px 1.5px black;
+    /*border: 3px black solid;
+    display: inline;*/
+}
+
+h2, h3, h4 {
+    color: rgb(0, 118, 122);
+    font-size: 20px;
+}
+
+a:hover {
+    color: red;
+}
